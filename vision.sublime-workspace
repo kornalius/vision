@@ -1,0 +1,1517 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Element",
+				"ElementMixin\t(element.js)"
+			],
+			[
+				"attr",
+				"attributes"
+			],
+			[
+				"toLow",
+				"toLowerCase()"
+			],
+			[
+				"hasAttr",
+				"hasAttribute\tjsDOM"
+			],
+			[
+				"removeAttr",
+				"removeAttribute\tjsDOM"
+			],
+			[
+				"sour",
+				"sourceMaps"
+			],
+			[
+				"Requ",
+				"Requirements\t(requirements.js)"
+			],
+			[
+				"repe",
+				"repeats"
+			],
+			[
+				"addEventLis",
+				"addEventListener\tjsEvent"
+			],
+			[
+				"order-clie",
+				"order-client-fields\t(order-client-fields.html)"
+			],
+			[
+				"has",
+				"hasSearchRules"
+			],
+			[
+				"firstChi",
+				"firstChild\tjsDOM"
+			],
+			[
+				"removeChi",
+				"removeChild(childWrapper)\twebcomponents.js"
+			],
+			[
+				"overf",
+				"overflow-y"
+			],
+			[
+				"ob",
+				"observers\t(gui-input.html)"
+			],
+			[
+				"paper-grou",
+				"paper-fields-group"
+			],
+			[
+				"LEN",
+				"LENGTH_TOP"
+			],
+			[
+				"paper-ac",
+				"paper-action-button\t(paper-items-line-edit.html)"
+			],
+			[
+				"navig",
+				"navigation-disabled\t(main.html)"
+			],
+			[
+				"poin",
+				"cursor: pointer;\tProperty"
+			],
+			[
+				"tran",
+				"tran\ttranslate"
+			],
+			[
+				"transla",
+				"translate\t(Hose Coupling 3:4.scad)"
+			],
+			[
+				"noti",
+				"notifyPath\t(order-main.html)"
+			],
+			[
+				"day",
+				"day_off"
+			],
+			[
+				"billto",
+				"billto_distribution\t(order-billto-distribution-group.html)"
+			],
+			[
+				"order-heade",
+				"order-header-group\t(order-header-group.html)"
+			],
+			[
+				"deli",
+				"delivery_method"
+			],
+			[
+				"c",
+				"code\tcode block"
+			],
+			[
+				"se",
+				"sequelize"
+			],
+			[
+				"check",
+				"checkpoint"
+			],
+			[
+				"stop",
+				"stopResizeNotificationsFor\t(iron-resizable-behavior.html)"
+			],
+			[
+				"content",
+				"contentTemplate"
+			],
+			[
+				"inline-",
+				"inline-flex"
+			],
+			[
+				"non",
+				"display: none;\tProperty"
+			],
+			[
+				"_scrollTo",
+				"_scrollToRight"
+			],
+			[
+				"endpoi",
+				"endpointsUrl"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"gui",
+				"gui_api_endpoint"
+			],
+			[
+				"vert",
+				"verticalAlign\t(iron-dropdown.html)"
+			],
+			[
+				"logo_",
+				"logo_half_en.png"
+			],
+			[
+				"daily-person",
+				"daily-person-list-item.html\t(daily-main.html)"
+			],
+			[
+				"querySele",
+				"querySelectorAll\t(app.html)"
+			],
+			[
+				"dai",
+				"daily-shift"
+			],
+			[
+				"fet",
+				"fetchData"
+			],
+			[
+				"add",
+				"addresses"
+			],
+			[
+				"addre",
+				"address_id"
+			],
+			[
+				"addr",
+				"address"
+			],
+			[
+				"tar",
+				"targetUrl"
+			],
+			[
+				"error",
+				"error-message"
+			],
+			[
+				"vaad",
+				"vaadin-upload.html\t(gui-input.html)"
+			],
+			[
+				"obser",
+				"observers\t(iron-list.html)"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"dele",
+				"deletable\t(editable-behavior.html)"
+			],
+			[
+				"time",
+				"timeline"
+			],
+			[
+				"hex",
+				"hex-svg\t(paper-radial-item.html)"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"offset",
+				"offsetTop\t(radial-item-behavior.html)"
+			],
+			[
+				"poi",
+				"cursor: pointer;\tProperty"
+			],
+			[
+				"paper-radial",
+				"paper-radial-item\t(paper-radial-item.html)"
+			],
+			[
+				"paperadi",
+				"paper-radial-item\t(paper-radial-item.html)"
+			],
+			[
+				"paper-rad",
+				"paper-radial-item\t(paper-radial-item.html)"
+			],
+			[
+				"query",
+				"querySelectorAll\t(app.html)"
+			],
+			[
+				"_opera",
+				"_operations"
+			],
+			[
+				"ra",
+				"random"
+			],
+			[
+				"_oper",
+				"_operations"
+			],
+			[
+				"parent",
+				"parent_uid"
+			],
+			[
+				"write",
+				"writeUInt32LE"
+			],
+			[
+				"comma_",
+				"comma_array"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "remo",
+		"selected_items":
+		[
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"edit",
+				"Project: Edit Project"
+			],
+			[
+				"q",
+				"ChangeQuotes"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"low",
+				"Convert Case: Lower Case"
+			],
+			[
+				"lowe",
+				"Convert Case: Lower Case"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"qu",
+				"ChangeQuotes"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"tit",
+				"Convert Case: Title Case"
+			],
+			[
+				"",
+				"AutoBackups: Open Backups Folder"
+			],
+			[
+				"dupli",
+				"File: Duplicate"
+			],
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"upda",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"ins",
+				"Indentation: Use Spaces"
+			],
+			[
+				"key",
+				"Keymap Redefiner: Define Keymap"
+			],
+			[
+				"evernote",
+				"Evernote Settings: User"
+			],
+			[
+				"ever",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"came",
+				"Convert Case: camelCase"
+			],
+			[
+				"dash",
+				"Convert Case: dash-case"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"merge",
+				"Git: Merge"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"check",
+				"Git: Checkout"
+			],
+			[
+				"git",
+				"SublimeGit: Documentation"
+			],
+			[
+				"char",
+				"Character Table: Insert Unicode Character"
+			],
+			[
+				"debug",
+				"SimplestDebugger: Toggle"
+			],
+			[
+				"back",
+				"AutoBackups: Open Backups Folder"
+			],
+			[
+				"das",
+				"Convert Case: dash-case"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"cheat",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"orgm",
+				"Preferences: orgmode Settings – User"
+			],
+			[
+				"orgmode",
+				"View: Toggle Distraction Free Mode"
+			],
+			[
+				"org",
+				"Layout: Grid"
+			],
+			[
+				"hast",
+				"To Hastebin : send"
+			],
+			[
+				":",
+				"Git: Checkout"
+			],
+			[
+				"branch",
+				"Git: Checkout New Branch"
+			],
+			[
+				"fetc",
+				"Git: Fetch"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"bran",
+				"Git (SideBarGit): Branch: switch to…"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"copy",
+				"File: Copy Path"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"haste",
+				"To Hastebin : send"
+			],
+			[
+				"checkou",
+				"Git: Checkout"
+			],
+			[
+				"backu",
+				"AutoBackups: Open Backups Folder"
+			],
+			[
+				"has",
+				"To Hastebin : send"
+			],
+			[
+				"case",
+				"Convert Case: camelCase"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"quo",
+				"ChangeQuotes"
+			],
+			[
+				"forma",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"fetch",
+				"Git: Fetch"
+			],
+			[
+				"switch",
+				"Git (SideBarGit): Branch: switch to…"
+			],
+			[
+				"checkout",
+				"Git (SideBarGit): Checkout to…"
+			],
+			[
+				"branc",
+				"Git (SideBarGit): Branch: switch to…"
+			],
+			[
+				"chang",
+				"Git (SideBarGit): Diff: all changes since the last commit"
+			],
+			[
+				"reve",
+				"File: Reveal"
+			],
+			[
+				"revea",
+				"File: Reveal"
+			],
+			[
+				"open",
+				"File Navigator: Open"
+			],
+			[
+				"num",
+				"King: Number: Number Sequence"
+			],
+			[
+				"number",
+				"King: Number: Number Sequence"
+			],
+			[
+				"disa",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"updat",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"upgr",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"editpro",
+				"Project: Edit Project"
+			],
+			[
+				"alig",
+				"AlignTab"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 298.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/hd2/sources/vision",
+		"/Volumes/hd2/sources/vision/app",
+		"/Volumes/hd2/sources/vision/app/js",
+		"/Volumes/hd2/sources/vision/app/js/classes",
+		"/Volumes/hd2/sources/vision/app/js/mixins"
+	],
+	"file_history":
+	[
+		"/Volumes/hd2/sources/vision/.eslintrc",
+		"/Volumes/hd2/sources/trafficker/.babelrc",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/game.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/base-element.js",
+		"/Volumes/hd2/sources/trafficker/app/js/components/game.jsx",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/game.jsx",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/base.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/weapon.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/size.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/scene.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/requirement.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/point.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/player.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/planet.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/npc.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/news.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/mod.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/mission.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/log.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/location.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/item.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/game.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/equipment.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/building.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/armor.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/base.js",
+		"/Volumes/hd2/sources/trafficker/app/js/index.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixin.js",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/rect.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/logs.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/parent-children.js",
+		"/Volumes/hd2/sources/trafficker/node_modules/es6-class-mixin/package.json",
+		"/Volumes/hd2/sources/trafficker/node_modules/es6-class-mixin/README.md",
+		"/Volumes/hd2/sources/trafficker/node_modules/es6-class-mixin/index.es6",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/atk.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/element.js",
+		"/Volumes/hd2/sources/trafficker/node_modules/preact/src/vdom/component.js",
+		"/Volumes/hd2/sources/trafficker/node_modules/preact/src/constants.js",
+		"/Volumes/hd2/sources/trafficker/node_modules/preact/src/vdom/functional-component.js",
+		"/Volumes/hd2/sources/trafficker/node_modules/preact/src/hooks.js",
+		"/Volumes/hd2/sources/trafficker/node_modules/preact/src/options.js",
+		"/Volumes/hd2/sources/trafficker/node_modules/preact/src/render-queue.js",
+		"/Volumes/hd2/sources/trafficker/node_modules/preact/src/vnode.js",
+		"/Volumes/hd2/sources/trafficker/node_modules/preact/src/render.js",
+		"/Volumes/hd2/sources/trafficker/node_modules/preact/src/preact.js",
+		"/Volumes/hd2/sources/trafficker/node_modules/preact/src/h.js",
+		"/Volumes/hd2/sources/trafficker/node_modules/preact/src/component.js",
+		"/Volumes/hd2/sources/trafficker/node_modules/preact/src/vdom/component-recycler.js",
+		"/Volumes/hd2/sources/trafficker/node_modules/preact/src/dom/recycler.js",
+		"/Volumes/hd2/sources/trafficker/node_modules/preact/src/dom/index.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/timer.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/animation.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/dragdrop.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/equipments.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/inventory.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/keyboard.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/lck.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/locations.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/missions.js",
+		"/Volumes/hd2/sources/trafficker/trafficker.sublime-project",
+		"/Volumes/hd2/sources/trafficker/app/js/classes/element.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/rect.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/point.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/observable.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/npcs.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/requirements.js",
+		"/Volumes/hd2/sources/trafficker/app/js/utils.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/state.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/mods.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/value.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/target.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/dex.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/str.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/spd.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/source.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/qty.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/name.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/mouse.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/int.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/icon.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/hp.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/desc.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/def.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/day.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/size.js",
+		"/Volumes/hd2/sources/trafficker/node_modules/eventemitter2/README.md",
+		"/Volumes/hd2/sources/trafficker/package.json",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/select.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/src.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/css.js",
+		"/Volumes/hd2/sources/trafficker/app/js/mixins/async.js",
+		"/Volumes/hd2/sources/vision/node_modules/json-query/README.md",
+		"/Volumes/hd2/sources/vision/node_modules/json-query/index.js",
+		"/Volumes/hd2/sources/vision/node_modules/marsdb/lib/Collection.js",
+		"/Volumes/hd2/sources/vision/node_modules/marsdb/lib/CollectionDelegate.js",
+		"/Volumes/hd2/sources/vision/node_modules/marsdb/lib/Cursor.js",
+		"/Volumes/hd2/sources/vision/node_modules/json-query/lib/tokenize.js",
+		"/Volumes/hd2/sources/vision/app/js/classes/collection.js",
+		"/Volumes/hd2/sources/vision/app/js/classes/base.js",
+		"/Volumes/hd2/sources/vision/app/js/classes/point.js",
+		"/Volumes/hd2/sources/vision/app/js/classes/rect.js",
+		"/Volumes/hd2/sources/vision/app/js/classes/size.js",
+		"/Volumes/hd2/sources/vision/app/js/utils.js",
+		"/Volumes/hd2/sources/vision/app/js/mixin.js",
+		"/Volumes/hd2/sources/vision/app/js/mixins/timer.js",
+		"/Volumes/hd2/sources/vision/app/js/mixins/select.js",
+		"/Volumes/hd2/sources/vision/app/js/mixins/set.js",
+		"/Volumes/hd2/sources/vision/app/js/mixins/size.js",
+		"/Volumes/hd2/sources/vision/app/js/mixins/state.js",
+		"/Volumes/hd2/sources/vision/app/js/mixins/rect.js",
+		"/Volumes/hd2/sources/vision/app/js/mixins/point.js",
+		"/Volumes/hd2/sources/vision/app/js/mixins/parent-children.js",
+		"/Volumes/hd2/sources/vision/app/js/mixins/observable.js",
+		"/Volumes/hd2/sources/vision/app/js/mixins/mouse.js",
+		"/Volumes/hd2/sources/vision/app/js/mixins/keyboard.js",
+		"/Volumes/hd2/sources/vision/app/js/mixins/dragdrop.js",
+		"/Volumes/hd2/sources/vision/app/index.html",
+		"/Volumes/hd2/sources/vision/node_modules/observe-js/README.md",
+		"/Volumes/hd2/sources/vision/node_modules/observe-js/src/observe.js",
+		"/Volumes/hd2/sources/vision/node_modules/observe-js/tests/array_fuzzer.js",
+		"/Volumes/hd2/sources/vision/node_modules/observe-js/tests/d8_planner_test.js",
+		"/Volumes/hd2/sources/lsi/garda/GSKED/lib/pointrect.js",
+		"/Volumes/hd2/sources/vision/app/js/index.js",
+		"/Volumes/hd2/sources/vision/app/js/mixins/async.js",
+		"/Volumes/hd2/sources/vision/package.json",
+		"/Volumes/hd2/sources/vision/app/styles/index.scss",
+		"/Volumes/hd2/sources/vision/app/styles/default.scss",
+		"/Volumes/hd2/sources/vision/app/styles/cursor.scss"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 112.0,
+		"where_history":
+		[
+			"/Volumes/hd2/sources/lsi/garda/GSKED_1_0/,-node_modules/,-bower_components/,-dist/,-.tmp/,*.js,*.html,*.css",
+			"/Volumes/hd2/sources/lsi/garda/GSKED_1_0/,-node_modules/,-dist/,-.tmp/,*.js,*.html,*.css",
+			"/Volumes/hd2/sources/lsi/garda/GSKED_1_0/,-node_modules/,-bower_components/,-dist/,-.tmp/,*.js,*.html,*.css",
+			"/Volumes/hd2/sources/lsi/garda/GSKED_1_0/bower_components",
+			"/Volumes/hd2/sources/lsi/garda/GSKED_1_0/,-node_modules/,-bower_components/,-dist/,-.tmp/,*.js,*.html,*.css",
+			"/Volumes/hd2/sources/lsi/garda/GSKED_1_0/,-node_modules/,-bower_components/,-dist/,-.tmp/,*.js,*.html",
+			"/Volumes/hd2/sources/lsi/garda/GSKED_1_0/,-node_modules/,-bower_components/,-dist/,-.tmp/",
+			"/Volumes/hd2/sources/lsi/garda/GSKED_1_0/app/elements",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"arrow",
+			"},",
+			"Mixed",
+			"parent",
+			"Parent",
+			"binds",
+			"parentNode",
+			"parent",
+			"renderComponent",
+			"shouldComponent",
+			"componentD",
+			"componentW",
+			"this.state._obj",
+			"element",
+			"ParentChildrenMixin",
+			"x",
+			"GameMixin",
+			"parentNode",
+			"childElements(",
+			"childElements()",
+			"hasElement()",
+			" => ",
+			"this.el",
+			": ",
+			"fps",
+			"this._fps",
+			"this.frame",
+			"this.time",
+			"this.step",
+			"this.accumulator",
+			"this.lastTick",
+			"this.paused",
+			"mixins/parent",
+			"l",
+			"log",
+			" =>",
+			": ",
+			"n",
+			"i",
+			"item",
+			"e",
+			"equipment",
+			"l",
+			"location",
+			"mission",
+			"mod",
+			"this.locations",
+			" =>",
+			": ",
+			" =>",
+			": ",
+			"e",
+			": ",
+			" => ",
+			"dex",
+			"e",
+			": ",
+			" => ",
+			"atk",
+			"_atk",
+			"{ x, y }",
+			"{ x, y, w, h }",
+			"let { w, h }",
+			"area",
+			"var",
+			"size",
+			"rect.",
+			"other.",
+			"y",
+			"x",
+			"rect.extent.y",
+			"rect.extent.x",
+			"rect.extent.",
+			"rect.origin.",
+			"x",
+			">=",
+			"thios",
+			"&&",
+			">",
+			"x.",
+			"w instanceof Size",
+			"w, h",
+			" <",
+			"toCompare",
+			"},",
+			"otherRect",
+			"size.width",
+			"size.height",
+			"origin.y",
+			"origin.x",
+			" = function",
+			"size.height",
+			"size.width",
+			"},",
+			" = function",
+			"Rectangle.prototype.",
+			"Vec2",
+			"Point",
+			"Rect",
+			"rect",
+			"Rect",
+			": (",
+			"  =>",
+			"};",
+			"      return",
+			" = function",
+			")\n",
+			": function",
+			"},",
+			": function",
+			"},",
+			"_clock",
+			"easing",
+			"resetAnimation",
+			"pause",
+			"setProgress",
+			"frames",
+			"duration",
+			"clock",
+			"loops",
+			"paused",
+			"completed",
+			"clock",
+			"duration",
+			"steps",
+			"duration",
+			"complete",
+			"duration"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 238.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-checkout":
+	{
+		"height": 54.0
+	},
+	"output.git-commit":
+	{
+		"height": 140.0
+	},
+	"output.git-fetch":
+	{
+		"height": 140.0
+	},
+	"output.git-merge":
+	{
+		"height": 140.0
+	},
+	"output.git-push":
+	{
+		"height": 140.0
+	},
+	"output.unicode_preview":
+	{
+		"height": 79.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 140.0
+	},
+	"pinned_build_system": "Packages/User/Gulp.sublime-build",
+	"project": "vision.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"paper-butt",
+				"bower_components/paper-button/paper-button.html"
+			],
+			[
+				"glob",
+				"app/scripts/globals.js"
+			],
+			[
+				"rele",
+				"app/elements/help/release-notes.html"
+			],
+			[
+				"main",
+				"app/styles/main.html"
+			],
+			[
+				"them",
+				"app/styles/app-theme.html"
+			],
+			[
+				"free",
+				"bower_components/freezer-js/build/freezer.js"
+			],
+			[
+				"gui-sele",
+				"app/elements/shared/gui/gui-selector.html"
+			],
+			[
+				"eleme",
+				"app/elements/elements.html"
+			],
+			[
+				"paper-input-cont",
+				"bower_components/paper-input/paper-input-container.html"
+			],
+			[
+				"paper-input",
+				"bower_components/paper-input/paper-input.html"
+			],
+			[
+				"gui-input",
+				"app/elements/shared/gui/gui-input.html"
+			],
+			[
+				"iron-f",
+				"bower_components/iron-fit-behavior/iron-fit-behavior.html"
+			],
+			[
+				"paper-dia",
+				"bower_components/paper-dialog-behavior/paper-dialog-behavior.html"
+			],
+			[
+				"paper-fie",
+				"app/elements/shared/gui/paper-fields-group.html"
+			],
+			[
+				"dropdown",
+				"bower_components/iron-dropdown/iron-dropdown.html"
+			],
+			[
+				"iron-over",
+				"bower_components/iron-overlay-behavior/iron-overlay-behavior.html"
+			],
+			[
+				"iron-drop",
+				"bower_components/iron-dropdown/iron-dropdown.html"
+			],
+			[
+				"paper-menu-butt",
+				"bower_components/paper-menu-button/paper-menu-button.html"
+			],
+			[
+				"paper-nfo",
+				"app/elements/shared/gui/paper-info-group.html"
+			],
+			[
+				"paper-fields",
+				"app/elements/shared/gui/paper-fields-group.html"
+			],
+			[
+				"fields-",
+				"app/elements/shared/gui/paper-fields-group.html"
+			],
+			[
+				"relea",
+				"app/elements/help/release-notes.html"
+			],
+			[
+				"gui-toa",
+				"app/elements/shared/gui/gui-toast.html"
+			],
+			[
+				"iron-fit",
+				"bower_components/iron-fit-behavior/iron-fit-behavior.html"
+			],
+			[
+				"iron-beha",
+				"bower_components/iron-overlay-behavior/iron-overlay-behavior.html"
+			],
+			[
+				"toast",
+				"bower_components/paper-toast/paper-toast.html"
+			],
+			[
+				"theme",
+				"app/styles/app-theme.html"
+			],
+			[
+				"loader",
+				"app/elements/shared/behaviors/loader-behavior.html"
+			],
+			[
+				"paper-button",
+				"bower_components/paper-button/paper-button.html"
+			],
+			[
+				"dialog",
+				"bower_components/paper-dialog-behavior/paper-dialog-behavior.html"
+			],
+			[
+				"a11",
+				"bower_components/iron-a11y-keys-behavior/iron-a11y-keys-behavior.html"
+			],
+			[
+				"menu",
+				"bower_components/iron-menu-behavior/iron-menu-behavior.html"
+			],
+			[
+				"multi",
+				"bower_components/iron-selector/iron-multi-selectable.html"
+			],
+			[
+				"selecta",
+				"bower_components/iron-selector/iron-selectable.html"
+			],
+			[
+				"multiselec",
+				"bower_components/iron-selector/iron-multi-selectable.html"
+			],
+			[
+				"ironmenu",
+				"bower_components/iron-menu-behavior/iron-menu-behavior.html"
+			],
+			[
+				"overlay",
+				"bower_components/iron-overlay-behavior/iron-overlay-behavior.html"
+			],
+			[
+				"polymer",
+				"bower_components/polymer/polymer.html"
+			],
+			[
+				"app",
+				"app/elements/app/app.html"
+			],
+			[
+				"select",
+				"bower_components/iron-selector/iron-selectable.html"
+			],
+			[
+				"paper-menu",
+				"bower_components/paper-menu/paper-menu.html"
+			],
+			[
+				"releas",
+				"app/elements/help/release-notes.html"
+			],
+			[
+				"paper-menub",
+				"bower_components/paper-menu-button/paper-menu-button.html"
+			],
+			[
+				"elemen",
+				"app/elements/elements.html"
+			],
+			[
+				"paper-tot",
+				"bower_components/paper-toast/paper-toast.html"
+			],
+			[
+				"paper-foc",
+				"bower_components/paper-behaviors/paper-inky-focus-behavior.html"
+			],
+			[
+				"paper-icon-",
+				"bower_components/paper-icon-button/paper-icon-button.html"
+			],
+			[
+				"paer-icon-butt",
+				"bower_components/paper-icon-button/paper-icon-button.html"
+			],
+			[
+				"utils",
+				"app/scripts/utils.js"
+			],
+			[
+				"paper-dialo",
+				"bower_components/paper-dialog-behavior/paper-dialog-behavior.html"
+			],
+			[
+				"paper-too",
+				"bower_components/paper-toolbar/paper-toolbar.html"
+			],
+			[
+				"globa",
+				"app/scripts/globals.js"
+			],
+			[
+				"flex",
+				"bower_components/iron-flex-layout/iron-flex-layout.html"
+			],
+			[
+				"globals",
+				"app/scripts/globals.js"
+			],
+			[
+				"overla",
+				"bower_components/iron-overlay-behavior/iron-overlay-behavior.html"
+			],
+			[
+				"paper-fiel",
+				"app/elements/shared/gui/paper-fields-group.html"
+			],
+			[
+				"gui-in",
+				"app/elements/shared/gui/gui-input.html"
+			],
+			[
+				"dropd",
+				"app/elements/shared/behaviors/dropdown-values-behavior.html"
+			],
+			[
+				"drop",
+				"app/elements/shared/behaviors/dropdown-values-behavior.html"
+			],
+			[
+				"dropdo",
+				"app/elements/shared/behaviors/dropdown-values-behavior.html"
+			],
+			[
+				"dropdow",
+				"app/elements/shared/behaviors/dropdown-values-behavior.html"
+			],
+			[
+				"editable",
+				"app/elements/shared/behaviors/editable-group-behavior.html"
+			],
+			[
+				"overlay-mana",
+				"bower_components/iron-overlay-behavior/iron-overlay-manager.html"
+			],
+			[
+				"paper-drop",
+				"bower_components/paper-dropdown-menu/paper-dropdown-menu.html"
+			],
+			[
+				"ironresize",
+				"bower_components/iron-resizable-behavior/iron-resizable-behavior.html"
+			],
+			[
+				"paperdialog",
+				"bower_components/paper-dialog-behavior/paper-dialog-behavior.html"
+			],
+			[
+				"colla",
+				"app/elements/shared/gui/collapse-list-detail.html"
+			],
+			[
+				"swipe",
+				"app/elements/shared/gui/paper-swipe.html"
+			],
+			[
+				"polyme",
+				"bower_components/polymer/polymer.html"
+			],
+			[
+				"elem",
+				"app/elements/elements.html"
+			],
+			[
+				"edita",
+				"app/elements/shared/behaviors/editable-behavior.html"
+			],
+			[
+				"immu",
+				"app/elements/shared/behaviors/immutable-store-behavior.html"
+			],
+			[
+				"vaadin",
+				"bower_components/vaadin-upload/vaadin-upload-file.html"
+			],
+			[
+				"items-line",
+				"app/elements/shared/behaviors/items-line-edit-behavior.html"
+			],
+			[
+				"input",
+				"app/elements/shared/gui/gui-input.html"
+			],
+			[
+				"iron-state",
+				"bower_components/iron-behaviors/iron-control-state.html"
+			],
+			[
+				"iron-list",
+				"bower_components/iron-list/iron-list.html"
+			],
+			[
+				"groupdata",
+				"app/elements/info-groups/group-data-behavior.html"
+			],
+			[
+				"menu-button",
+				"bower_components/paper-menu-button/paper-menu-button.html"
+			],
+			[
+				"fit",
+				"bower_components/iron-fit-behavior/iron-fit-behavior.html"
+			],
+			[
+				"paper-card",
+				"app/elements/shared/gui/paper-card.html"
+			],
+			[
+				"parcard",
+				"bower_components/paper-card/paper-card.html"
+			],
+			[
+				"selectab",
+				"bower_components/iron-selector/iron-multi-selectable.html"
+			],
+			[
+				"iron-resiz",
+				"bower_components/iron-resizable-behavior/iron-resizable-behavior.html"
+			],
+			[
+				"ele",
+				"app/elements/elements.html"
+			],
+			[
+				"rout",
+				"app/elements/routing.html"
+			],
+			[
+				"vaa",
+				"bower_components/vaadin-upload/vaadin-upload.html"
+			],
+			[
+				"button",
+				"bower_components/paper-button/paper-button.html"
+			],
+			[
+				"elemt",
+				"node_modules/browser-sync/node_modules/browser-sync-ui/node_modules/weinre/web/client/ElementsTreeOutline.js"
+			],
+			[
+				"checkbox",
+				"bower_components/paper-checkbox/paper-checkbox.html"
+			],
+			[
+				"progre",
+				"bower_components/paper-progress/paper-progress.html"
+			],
+			[
+				"styles",
+				"bower_components/paper-styles/paper-styles.html"
+			],
+			[
+				"paper-item",
+				"bower_components/paper-item/paper-item-shared-styles.html"
+			],
+			[
+				"selectable",
+				"bower_components/iron-selector/iron-selectable.html"
+			],
+			[
+				"control",
+				"bower_components/iron-behaviors/iron-control-state.html"
+			],
+			[
+				"paper-item-shared-styles",
+				"bower_components/paper-item/paper-item-shared-styles.html"
+			],
+			[
+				"item",
+				"bower_components/paper-item/paper-item.html"
+			],
+			[
+				"card",
+				"bower_components/paper-card/paper-card.html"
+			],
+			[
+				"checkb",
+				"bower_components/paper-checkbox/paper-checkbox.html"
+			],
+			[
+				"meta",
+				"bower_components/iron-meta/iron-meta.html"
+			],
+			[
+				"poly",
+				"bower_components/polymer/polymer.html"
+			],
+			[
+				"polym",
+				"bower_components/polymer/polymer.html"
+			],
+			[
+				"mapper",
+				"app/elements/shared/soap/soap-mapper.html"
+			],
+			[
+				"queu",
+				"app/elements/shared/soap/soap-queue.html"
+			],
+			[
+				"element",
+				"app/elements/elements.html"
+			],
+			[
+				"rippl",
+				"bower_components/paper-ripple/paper-ripple.html"
+			],
+			[
+				"i18",
+				"app/elements/shared/i18n-store.html"
+			],
+			[
+				"ripp",
+				"bower_components/paper-ripple/paper-ripple.html"
+			],
+			[
+				"layout",
+				"bower_components/paper-styles/classes/shadow-layout.html"
+			],
+			[
+				"shadow",
+				"bower_components/paper-styles/shadow.html"
+			],
+			[
+				"extend",
+				"app/elements/shared/gui/paper-menu-extended.html"
+			],
+			[
+				"paperitem",
+				"bower_components/paper-item/paper-item-behavior.html"
+			],
+			[
+				"menube",
+				"bower_components/iron-menu-behavior/iron-menu-behavior.html"
+			],
+			[
+				"multisele",
+				"bower_components/iron-selector/iron-multi-selectable.html"
+			],
+			[
+				"papeitem",
+				"bower_components/paper-item/paper-item-behavior.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Volumes/hd2/sources/lsi/garda/GSKED_1_0/gsked.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 1108.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 465.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
