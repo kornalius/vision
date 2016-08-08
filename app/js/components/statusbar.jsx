@@ -4,7 +4,7 @@ import Frame from './frame.jsx'
 export default class Statusbar extends Frame {
 
   style () {
-    return _.merge({}, super.style(), {
+    return this.mergeStyles(super.style(), {
       root: {
         background: '#ddd',
         height: 22,

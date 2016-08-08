@@ -14,7 +14,7 @@ export default class BaseElement extends Component {
   constructor (state = {}) {
     super()
 
-    this._setup()
+    this._setupBase()
 
     this._uid = shortid.generate()
 
@@ -72,8 +72,8 @@ export default class BaseElement extends Component {
     }
   }
 
-  newStyle (style) {
-    return _.merge({}, super.style(), style)
+  mergeStyles (sup, style) {
+    return _.merge({}, sup, style)
   }
 
   style () {

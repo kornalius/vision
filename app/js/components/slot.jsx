@@ -1,4 +1,4 @@
-import { h, uuid } from '../utils'
+import { h, _ } from '../utils'
 import Frame from './frame.jsx'
 
 export default class Slot extends Frame {
@@ -6,16 +6,12 @@ export default class Slot extends Frame {
   constructor (state) {
     super(state)
     _.extend(this.state, {
-      id: uuid.v4(),
-      lib_id: null,
-      value: null,
-      comment: null,
-      ref: null,
+      data: null,
     })
   }
 
   style () {
-    return _.merge({}, super.style(), {
+    return this.mergeStyles(super.style(), {
       root: {
         background: '#eee',
         minHeight: '1em',
@@ -34,9 +30,10 @@ export default class Slot extends Frame {
     })
   }
 
-  render ({ data, children }) {
+  render ({ children }, { data }) {
     return <div>
-      { data ? { children } : <span id='text' class='row center'>Add...</span> }
+      { data ? null : <span id='text' class='row center'>Add...</span> }
+      { children }
     </div>
   }
 

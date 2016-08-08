@@ -26,7 +26,7 @@ export default class Test extends mixin(BaseElement, ParentChildren) {
   }
 
   style () {
-    return {
+    return this.mergeStyles(super.style(), {
       root: {
         '& span': {
           fontSize: 20,
@@ -36,7 +36,7 @@ export default class Test extends mixin(BaseElement, ParentChildren) {
           color: 'red',
         }
       }
-    }
+    })
   }
 
   // shouldComponentUpdateStylesheet () {

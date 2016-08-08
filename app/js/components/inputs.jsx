@@ -5,7 +5,7 @@ import Slot from './slot.jsx'
 export default class Inputs extends Frame {
 
   style () {
-    return _.merge({}, super.style(), {
+    return this.mergeStyles(super.style(), {
       root: {
         flex: 'none',
         minHeight: '1em',

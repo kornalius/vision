@@ -1,4 +1,4 @@
-import { mixin } from '../utils'
+import { _, mixin } from '../utils'
 import Base from './base'
 import CollectionMixin from '../mixins/collection'
 

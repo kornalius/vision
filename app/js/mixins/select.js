@@ -1,3 +1,5 @@
+import { _ } from '../utils'
+
 export default {
 
   init () {

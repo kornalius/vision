@@ -7,7 +7,7 @@ import Statusbar from './statusbar.jsx'
 export default class Browser extends Frame {
 
   style () {
-    return _.merge({}, super.style(), {
+    return this.mergeStyles(super.style(), {
       root: {
         cursor: 'default',
 

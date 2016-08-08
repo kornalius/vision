@@ -1,4 +1,4 @@
-import { h, render } from '../utils'
+import { h, render, _ } from '../utils'
 import BaseElement from '../classes/base-element'
 
 export default class Frame extends BaseElement {
@@ -34,7 +34,7 @@ export default class Frame extends BaseElement {
   }
 
   style () {
-    return this.newStyle({
+    return this.mergeStyles(super.style(), {
       root: {
         display: 'flex',
         flex: '1 1 auto',

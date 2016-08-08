@@ -15,7 +15,7 @@ export default {
     return this
   },
 
-  _setup () {
+  _setupBase () {
     this._ee = new EventEmitter({ delimiter: '.' })
     this.sup('init')
     this.emit('object.create')

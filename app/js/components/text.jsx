@@ -44,7 +44,7 @@ export default class Text extends Frame {
   // }
 
   style () {
-    return _.merge({}, super.style(), {
+    return this.mergeStyles(super.style(), {
       root: {
         display: 'block',
         width: '400px',
