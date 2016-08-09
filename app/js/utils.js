@@ -20,6 +20,9 @@ import raf from 'raf'
 import { ArrayObserver, PathObserver, ObjectObserver } from 'observe-js'
 import { h, render } from 'preact'
 import uuid from 'uuid'
+import moment from 'moment'
+import now from 'performance-now'
+import numeral from 'numeral'
 
 const EE = new EventEmitter({ delimiter: '.' })
 
@@ -86,6 +89,8 @@ export {
   messageBox,
   remote,
   uuid,
+  moment,
+  numeral,
   mixin,
   mixin_extend,
   EventEmitter,
@@ -105,6 +110,7 @@ export {
   PathObserver,
   ObjectObserver,
   raf,
+  now,
   h,
   render,
 }

@@ -22,8 +22,8 @@ export default class Titlebar extends Frame {
 
   render ({ text }) {
     return <div class='flex-center align-middle'>
-      <span id='text'>{ text }</span>
-    </div>
+        <span id='text'>{ text }</span>
+      </div>
   }
 
 }

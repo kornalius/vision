@@ -1,26 +1,29 @@
+import { mixin_extend, _ } from '../utils'
+
+import shortid from 'shortid'
+import { Component } from 'preact'
+
 import { create } from 'jss'
 import defaultUnit from 'jss-default-unit'
 import camelCase from 'jss-camel-case'
 import extend from 'jss-extend'
 // import isolate from 'jss-isolate'
 import nested from 'jss-nested'
-import { mixin_extend, _ } from '../utils'
-import { Component } from 'preact'
+
 import BaseMixin from '../mixins/base'
-import shortid from 'shortid'
 
 export default class BaseElement extends Component {
 
-  constructor (state = {}) {
-    super()
+  constructor (props) {
+    super(...arguments)
 
-    this._setupBase()
+    this.initBase()
 
-    this._uid = shortid.generate()
+    this._css_id = shortid.generate()
 
     this._jss = create({
       generateClassName: (stylesStr, rule) => {
-        return rule.name ? rule.name + '-' + this._uid : this._uid
+        return rule.name ? rule.name + '-' + this._css_id : this._css_id
       }
     })
     this._jss.use(extend())
@@ -31,7 +34,14 @@ export default class BaseElement extends Component {
 
     this._stylesheet = null
 
-    this.setState(state)
+    let c = this.collection
+    let q = this.query
+    if (c && q) {
+      this.resolved = false
+      this.setState({ data: null })
+      q.on('update', result => this.setState({ data: result }))
+      this._executeQuery(q)
+    }
 
     this._binds = {}
     for (let f in this) {
@@ -39,6 +49,10 @@ export default class BaseElement extends Component {
         this._binds[f] = this[f].bind(this)
       }
     }
+  }
+
+  getInitialState () {
+    return {}
   }
 
   get element () { return this.base }
@@ -80,7 +94,7 @@ export default class BaseElement extends Component {
     return {}
   }
 
-  componentWillReceiveProps () {
+  componentWillReceiveProps (nextProps) {
   }
 
   componentWillMount () {
@@ -114,11 +128,21 @@ export default class BaseElement extends Component {
     }
   }
 
-  // componentDidUpdate () {
-  // }
+  componentDidUpdate () {
+  }
 
   // render (props, state) {
   // }
+
+  _executeQuery (q) {
+    this.resolved = false
+    if (q) {
+      q.exec().then(result => {
+        this.resolved = true
+        this.setState({ data: result })
+      })
+    }
+  }
 
 }
 

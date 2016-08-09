@@ -1,9 +1,8 @@
 import { mixin } from '../utils'
+import Base from './base'
 import PointMixin from '../mixins/point'
 
-class P {}
-
-export default class Point extends mixin(P, PointMixin) {
+export default class Point extends mixin(Base, PointMixin) {
 
   constructor (x = 0, y = 0) {
     super()

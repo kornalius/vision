@@ -52,6 +52,8 @@
     "jss-nested": "^1.0.3",
     "lodash": "^4.13.1",
     "marsdb": "^0.6.9",
+    "marsdb-localforage": "^0.1.0",
+    "marsdb-mongo": "^0.1.0",
     "moment": "^2.10.2",
     "numeral": "^1.5.3",
     "observe-js": "^0.4.2",

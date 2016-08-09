@@ -1,10 +1,8 @@
 import { mixin } from '../utils'
-
+import Base from './base'
 import RangeMixin from '../mixins/range'
 
-class R {}
-
-export default class Range extends mixin(R, RangeMixin) {
+export default class Range extends mixin(Base, RangeMixin) {
 
   constructor (start = 0, end = 0) {
     super()

@@ -1,14 +1,7 @@
-import { h, _ } from '../utils'
+import { h } from '../utils'
 import Frame from './frame.jsx'
 
 export default class Slot extends Frame {
-
-  constructor (state) {
-    super(state)
-    _.extend(this.state, {
-      data: null,
-    })
-  }
 
   style () {
     return this.mergeStyles(super.style(), {
@@ -30,11 +23,10 @@ export default class Slot extends Frame {
     })
   }
 
-  render ({ children }, { data }) {
+  render ({ children }) {
     return <div>
-      { data ? null : <span id='text' class='row center'>Add...</span> }
-      { children }
-    </div>
+        { children }
+      </div>
   }
 
 }

@@ -1,9 +1,8 @@
 import { mixin } from '../utils'
+import Base from './base'
 import RectMixin from '../mixins/rect'
 
-class R {}
-
-export default class Rect extends mixin(R, RectMixin) {
+export default class Rect extends mixin(Base, RectMixin) {
 
   constructor (x = 0, y = 0, w = 0, h = 0) {
     super()

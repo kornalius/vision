@@ -23,8 +23,8 @@ export default class Statusbar extends Frame {
 
   render ({ text }) {
     return <div class='flex-center align-middle'>
-      { text.split('|').map(i => <span class='section'>{ i }</span>) }
-    </div>
+        { text.split('|').map(i => <span class='section'>{ i }</span>) }
+      </div>
   }
 
 }

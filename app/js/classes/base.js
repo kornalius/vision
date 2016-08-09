@@ -4,7 +4,7 @@ import BaseMixin from '../mixins/base'
 export default class Base {
 
   constructor () {
-    this._setupBase()
+    this.initBase()
   }
 
 }

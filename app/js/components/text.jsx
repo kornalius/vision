@@ -4,10 +4,6 @@ const CodeMirror = require('codemirror')
 
 export default class Text extends Frame {
 
-  constructor () {
-    super({ text: '' })
-  }
-
   componentWillReceiveProps (nextProps) {
     super.componentWillReceiveProps(nextProps)
     this.defer(() => {
@@ -33,9 +29,9 @@ export default class Text extends Frame {
     this._cm.setValue(this.props.defaultValue || this.props.value || '')
   }
 
-  componentWillUnmount () {
-    super.componentWillUnmount()
-  }
+  // componentWillUnmount () {
+  //   super.componentWillUnmount()
+  // }
 
   // valueChanged (doc, change) {
     // if (this.props.onChange && change.origin !== 'setValue') {

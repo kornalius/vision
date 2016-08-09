@@ -1,14 +1,10 @@
-import { h, mixin } from '../utils'
+import { h } from '../utils'
 
 import BaseElement from '../classes/base-element'
 
-import ParentChildren from '../mixins/parent-children'
+export default class Test extends BaseElement {
 
-export default class Test extends mixin(BaseElement, ParentChildren) {
-
-  constructor () {
-    super({ count: 0 })
-  }
+  getInitialState () { return { count: 0 } }
 
   destroy () {
     super.destroy()
@@ -39,14 +35,10 @@ export default class Test extends mixin(BaseElement, ParentChildren) {
     })
   }
 
-  // shouldComponentUpdateStylesheet () {
-    // return true
-  // }
-
-  render (props, state) {
+  render (props, { count }) {
     return <div>
-             <span>Preact Element, Works! <span class='test'>{ state.count }</span></span>
-           </div>
+        <span>Preact Element, Works! <span class='test'>{ count }</span></span>
+      </div>
   }
 
 }

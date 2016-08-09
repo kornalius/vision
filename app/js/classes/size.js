@@ -1,10 +1,8 @@
 import { mixin } from '../utils'
-
+import Base from './base'
 import SizeMixin from '../mixins/size'
 
-class S {}
-
-export default class Size extends mixin(S, SizeMixin) {
+export default class Size extends mixin(Base, SizeMixin) {
 
   constructor (w = 0, h = 0) {
     super()

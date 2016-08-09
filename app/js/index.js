@@ -1,5 +1,6 @@
 import { h, render, mixin } from './utils'
 import Base from './classes/base'
+import BaseElement from './classes/base-element'
 import Collection from './classes/collection'
 import Rect from './classes/rect'
 import Select from './mixins/select'
@@ -78,14 +79,37 @@ console.log(r)
 
 var c = new Collection('test')
 console.log(c.$)
-c.$.insert({ text: 'MarsDB is awesome' }).then(docId => {
+c.insert({ text: 'MarsDB is awesome' }).then(docId => {
   console.log(docId)
-  c.$.insertAll([ { text: 'MarsDB' }, { text: 'is' }, { text: 'awesome' } ]).then(docIds => {
+  c.insertAll([ { text: 'MarsDB' }, { text: 'is' }, { text: 'awesome' } ]).then(docIds => {
     console.log(docIds)
-    c.$.find().then(docs => console.log(docs))
+    c.find().then(docs => console.log(docs))
   })
 })
 
+class DataTest extends BaseElement {
+
+  get collection () { return c }
+
+  get query () { return this.collection.find({ text: 'MarsDB' }) }
+
+  render (props, { data }) {
+    if (this.resolved) {
+      return <div class='w100'>
+        { data.map(v => {
+          return <div class='flex flex-justify ml1 mr1'>
+            <span>{ v._id }</span>
+            <span>{ v.text }</span>
+          </div> })
+        }
+      </div>
+    }
+    else {
+      return <div></div>
+    }
+  }
+
+}
 
 window._test = render(<Test />, document.body)
 window._text = render(<Text value='This is a sample text' />, document.body)
@@ -102,4 +126,9 @@ window._frame._component.addFrame(
 )
 
 window._frame._component.addFrame(<Browser />)
-window._frame._component.addFrame(<Browser />)
+
+window._frame._component.addFrame(
+  <Browser>
+    <DataTest />
+  </Browser>
+)

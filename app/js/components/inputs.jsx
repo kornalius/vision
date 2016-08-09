@@ -18,9 +18,9 @@ export default class Inputs extends Frame {
 
   render ({ slots }) {
     return <div class='flex-column'>
-      { slots ? slots.map(s => <Slot class='row flex-start' data={ s }></Slot>) : null }
-      <Slot class='row'></Slot>
-    </div>
+        { slots ? slots.map(s => <Slot class='row flex-start' data={ s }></Slot>) : null }
+        <Slot class='row'></Slot>
+      </div>
   }
 
 }

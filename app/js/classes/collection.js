@@ -1,14 +1,13 @@
-import { _, mixin } from '../utils'
-import Base from './base'
-import CollectionMixin from '../mixins/collection'
+import { mixin_extend } from '../utils'
 
-export default class Collection extends mixin(Base, CollectionMixin) {
+import BaseMixin from '../mixins/base'
 
-  constructor (name) {
-    super()
-    if (_.isString(name)) {
-      this.$open(name)
-    }
-  }
+import MarsCollection from 'marsdb'
+import LocalForageManager from 'marsdb-localforage'
+MarsCollection.defaultStorageManager(LocalForageManager)
+
+export default class Collection extends MarsCollection {
 
 }
+
+mixin_extend(Collection.prototype, BaseMixin)
