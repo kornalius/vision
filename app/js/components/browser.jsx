@@ -1,4 +1,5 @@
 import { h } from '../utils'
+import theme from '../themes/index'
 import Frame from './frame.jsx'
 import Inputs from './inputs.jsx'
 import Titlebar from './titlebar.jsx'
@@ -16,20 +17,24 @@ export default class Browser extends Frame {
         'user-select': 'none',
 
         justifyContent: 'space-between',
-        border: '1px solid #777',
-        background: '#fcfcfc',
         height: '30em',
         margin: 4,
+
+        border: '1px solid ' + theme.browser.border,
+        background: theme.browser.background,
+        color: theme.browser.color,
+
+        fontFamily: theme.browser.font,
+        fontSize: theme.browser.fontSize,
+        fontWeight: theme.browser.fontWeight,
       }
     })
   }
 
-  render ({ title, children }) {
-    return <div class='flex-column flex-grow'>
+  render ({ icon, title, shadow, children }) {
+    return <div class={ 'flex-column flex-grow' + (shadow ? ' shadow-3' : '') }>
 
-        <Inputs class='row flex-start'></Inputs>
-
-        <Titlebar id='title' class='row flex-start' text={ title || 'Untitled' }></Titlebar>
+        <Titlebar id='title' class='row flex-start' icon={ icon }>{ title || 'Untitled' }</Titlebar>
 
         <div id='content' class='row flex-stretch overflow-auto'>
           { children }

@@ -1,6 +1,11 @@
 @font-face {
   font-family: 'Icons';
-  src: url('../fonts/ico.ttf');
+  src: url('../assets/ico.ttf');
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('../assets/Hack-Regular.ttf');
 }
 
 [class^="ic-"], [class*=" ic-"] {
@@ -11,8 +16,6 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
-  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

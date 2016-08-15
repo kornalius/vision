@@ -37,7 +37,6 @@ export default class Frame extends BaseElement {
     return this.mergeStyles(super.style(), {
       root: {
         display: 'flex',
-        flex: '1 1 auto',
         minWidth: '1em',
         minHeight: '1em',
       }

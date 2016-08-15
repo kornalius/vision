@@ -1,13 +1,19 @@
 import { h, render, mixin } from './utils'
+
 import Base from './classes/base'
 import BaseElement from './classes/base-element'
 import Collection from './classes/collection'
 import Rect from './classes/rect'
+
 import Select from './mixins/select'
 import Set from './mixins/set'
 import Observable from './mixins/observable'
 import ParentChildren from './mixins/parent-children'
+
+import Desktop from './components/desktop.jsx'
+import Form from './components/form.jsx'
 import Test from './components/test.jsx'
+import Label from './components/label.jsx'
 import Text from './components/text.jsx'
 import Browser from './components/browser.jsx'
 import Frame from './components/frame.jsx'
@@ -87,37 +93,56 @@ c.insert({ text: 'MarsDB is awesome' }).then(docId => {
   })
 })
 
-class DataTest extends BaseElement {
+class DataTest extends Form {
 
-  get collection () { return c }
-
-  get query () { return this.collection.find({ text: 'MarsDB' }) }
-
-  render (props, { data }) {
-    if (this.resolved) {
-      return <div class='w100'>
-        { data.map(v => {
-          return <div class='flex flex-justify ml1 mr1'>
-            <span>{ v._id }</span>
-            <span>{ v.text }</span>
-          </div> })
-        }
-      </div>
-    }
-    else {
-      return <div></div>
-    }
+  render ({ collection, query }, { resolved, data }) {
+    return <Form>
+      {
+        resolved ?
+          <div class='w100'>
+            { data.map(v => {
+              return <div class='flex flex-justify m1'>
+                <span>{ v._id }</span>
+                <span>{ v.text }</span>
+              </div> })
+            }
+          </div>
+        : <div></div>
+      }
+    </Form>
   }
 
 }
 
-window._test = render(<Test />, document.body)
-window._text = render(<Text value='This is a sample text' />, document.body)
+window.vision = {}
 
-window._frame = render(<Frame/>, document.body)
-window._frame._component.addFrame(
+window.vision.desktop = render(<Desktop />, document.body)
+
+window.vision.test = render(<Test />, window.vision.desktop)
+
+class MyLabel extends Label {
+
+  getInitialState () {
+    return { text: '' }
+  }
+
+  render (props, state) {
+    return super.render({ children: state.text }, state)
+  }
+
+}
+
+let textChanged = text => {
+  window.vision.label._component.setState({ text })
+}
+
+window.vision.label = render(<MyLabel />, window.vision.desktop)
+window.vision.text = render(<Text text='This is a sample text' onChange={ textChanged } />, window.vision.desktop)
+
+window.vision.frame = render(<Frame/>, window.vision.desktop)
+window.vision.frame._component.addFrame(
   <Browser>
-    <div id='content' class='flex flex-column'>
+    <div id='content' class='flex flex-column m1'>
       <span>Line 1</span>
       <span>Line 2</span>
       <span>Line 3</span>
@@ -125,10 +150,10 @@ window._frame._component.addFrame(
   </Browser>
 )
 
-window._frame._component.addFrame(<Browser />)
+window.vision.frame._component.addFrame(<Browser />)
 
-window._frame._component.addFrame(
+window.vision.frame._component.addFrame(
   <Browser>
-    <DataTest />
+    <DataTest collection={ c } query={ c.find({ text: 'MarsDB' }) } />
   </Browser>
 )

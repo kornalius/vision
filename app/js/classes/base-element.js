@@ -34,15 +34,6 @@ export default class BaseElement extends Component {
 
     this._stylesheet = null
 
-    let c = this.collection
-    let q = this.query
-    if (c && q) {
-      this.resolved = false
-      this.setState({ data: null })
-      q.on('update', result => this.setState({ data: result }))
-      this._executeQuery(q)
-    }
-
     this._binds = {}
     for (let f in this) {
       if (_.isFunction(this[f])) {
@@ -95,6 +86,7 @@ export default class BaseElement extends Component {
   }
 
   componentWillReceiveProps (nextProps) {
+    console.info(this, nextProps)
   }
 
   componentWillMount () {
@@ -133,16 +125,6 @@ export default class BaseElement extends Component {
 
   // render (props, state) {
   // }
-
-  _executeQuery (q) {
-    this.resolved = false
-    if (q) {
-      q.exec().then(result => {
-        this.resolved = true
-        this.setState({ data: result })
-      })
-    }
-  }
 
 }
 
